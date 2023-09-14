@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: rgb(210, 210, 236);
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*#main{
+    width:800px;
+    padding: 10px 10px 10px 10px;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px double #f1f1f1;
+    margin-bottom:100px double #f1f1f1;
+
+}*/
+
+#main {
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 100px;
+    border-top: 3px double #f1f1f1;
+    border-bottom: 3px double #f1f1f1;
+    padding-top: 20px;
+}
+
+#main table {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main .tb {
+    height: 30px;
+    width: 250px;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+#main .tb:focus {
+    height: 30px;
+    border: 1px black;
+    outline: none;
+}
+
+#main .btn {
+    width: 120px;
+    height: 30px;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 2px;
+    font-weight: 600;
+    color:black;
+    font-size: 13px;
+    background-color:white;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+#main .btn:hover {
+    background-color: papayawhip;
+    outline: none;
+    border-radius: 2px;
+    color: black;
+    border: 1px solid white;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}

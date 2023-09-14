@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="h-tag">
+            Enter your  details:
+        </div>
+        <div class="login" >
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                    <td>First name: </td>
+                    <td><input type="text" placeholder="First name" id="t1" class="tb"></td>
+                </tr>
+                <tr>
+                    <td>Last name: </td>
+                    <td><input type="text" placeholder="Second name" id="t2" class="tb"></td>
+                </tr>
+                <tr>
+                    <td>Email id: </td>
+                    <td><input type="email" placeholder="Enter email here" id="t3" class="tb"></td>
+                </tr>
+                <tr>
+                    <td>Enter age: </td>
+                    <td><input type="text" placeholder="Enter age here" id="t4" class="tb"></td>
+                </tr>
+                <tr>
+                    <td>Enter address: </td>
+                    <td><input type="textarea" placeholder="Enter address here" id="t5" class="tb"></td>
+                </tr>
+                <tr>
+                    <td>Enter password: </td>
+                    <td><input type="password" placeholder="Enter password here" id="t6" class="tb"></td>
+                </tr>
+                <tr>
+                    <td>Confirm password: </td>
+                    <td><input type="password" placeholder="Confirm password here" id="t6" class="tb"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                    <input type="reset" value="Clear Form" onclick="clearFunc()" id="res" class="btn" />
+                    <input type="submit" value="Create Account" class="btn" onclick="registration()" /></td>
+                    </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
